@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face  { font-family: "Averta";
+            src: url("/assets/font/Averta Cyrillic Bold.otf");
+            src: url("/assets/font/Averta Cyrillic Light.otf");
+            src: url("/assets/font/Averta Cyrillic Regular.otf");
+            src: url("/assets/font/Averta Cyrillic SemiBold.otf");
+}
+:root {
+    --primary-color : #111827;
+    --steel-gray : #D1D5DB;
+    --pastel-blue : #2CCED2;
+    --pastel-orange : #F27348;
+    --lightgrey : #D1D5D8;
+    font-family: "Averta";
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.herotext{
+    margin: 50px;
+    text-align: center;
+    font-size: 3rem;
+    color: var(--primary-color);
+    letter-spacing: -2px;
+}
+
+.t-img{
+    display: block;
+    height: 250px;
+    max-width: 200px;
+    margin: auto;
+    padding: 50px;
+    
+}
+
+.t-link{
+    text-decoration: none;
+}
+.t-link:hover{
+    color: var(--pastel-orange);
+}
+
+
+.t-heading{
+    font-size: 2rem;
+    font-family: "Averta";
+    margin: 20px;
+}
+
+.minion{
+    background-color: khaki;
+
+}
+
+.Shakespear{
+    background-color: burlywood;
+}
+.inputarea{
+    height: 150px;
+    padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid yellow;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+
+}
+
+.btn-t{
+    background-color: var(--pastel-orange); /* Green */
+    border: none;
+    color: black;
+    margin: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.outputarea{
+    height: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px;
+    padding: 15px 32px;
+}
